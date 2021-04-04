@@ -1,11 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import './App.css';
+
 import Homepage from './Component/Homepage';
+
 
 function App() {
   return (
     <div className="App">
+
       <Router>
         <nav>
           <div className="list-group w-300 vh-100">
@@ -21,6 +24,7 @@ function App() {
         </div>
 
       </Router>
+
     </div>
   );
 }
