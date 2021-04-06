@@ -1,0 +1,1 @@
+{"cryptos": [{"name": "Etherium", "hits": "79", "rank": "1"}, {"name": "Bitcoin", "hits": "65", "rank": "2"}, {"name": "Litecoin", "hits": "6", "rank": "3"}]}
