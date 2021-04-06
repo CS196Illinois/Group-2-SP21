@@ -1,9 +1,9 @@
 [{
-	"rank": 12,
-	"name": "Bitcoin",
-	"imageurl": "https://images.theconversation.com/files/194266/original/file-20171113-27585-1gdvg8x.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip"
+	"rank": 1,
+	"name": "Etherium",
+	"hits": 23
 }, {
-	"rank": 12,
+	"rank": 2,
 	"name": "Bitcoin",
-	"imageurl": "https://images.theconversation.com/files/194266/original/file-20171113-27585-1gdvg8x.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip"
+	"hits": 12
 }]

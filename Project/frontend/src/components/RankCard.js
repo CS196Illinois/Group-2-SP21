@@ -4,12 +4,14 @@ import './RankCard.css'
 
 const RankCard = (props) => {
     return (
-        <Card style={{ width: '18rem' }} key={props.index} className='card' >
-            <Card.Img variant="top" src={props.imageurl} />
+        <Card style={{ width: '30rem' }} key={props.index} className='card' >
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>
-                    Rank = {props.rank}
+                    Rank: {props.rank}
+                </Card.Text>
+                <Card.Text>
+                    Hits: {props.hits}
                 </Card.Text>
             <Button variant="primary">Go somewhere</Button>
             </Card.Body>
