@@ -8,11 +8,11 @@ function RankPage() {
   const [data, setData] = useState([]);
 
   const getData = async () => {
-    await axios.get('./data.json')
+    await axios.get('http://localhost:5000')
     .then(response => {
         console.log(response);
 
-        let data = response.data;
+        let data = response.data.cryptos;
 
         console.log(data);
 
