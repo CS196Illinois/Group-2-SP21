@@ -28,7 +28,7 @@ function RankPage() {
   const renderCard = (card, index) => {
     return (
       <div className='rank-card'>
-          <RankCard rank={card.rank} name = {card.name} index = {index} hits = {card.hits}>
+          <RankCard rank={card.rank} name = {card.name} index = {index} hits = {card.hits} key = {card.rank}>
           </RankCard>
       </div>
     );
