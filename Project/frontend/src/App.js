@@ -8,6 +8,7 @@ import RankPage from './components/RankPage'
 import Homepage from './components/Homepage';
 
 import About from './components/About';
+import BarGraph from './components/BarGraph';
 
 
 function App() {
@@ -19,20 +20,19 @@ function App() {
             <Link to="/" className="list-group-item active">HomePage</Link>
             <Link to="/rank" className="list-group-item active">RankPage</Link>
             <Link to="/about" className="list-group-item active">AboutPage</Link>
+            <Link to="/bargraph" className="list-group-item active">BarGraph</Link>
           </div>
         </nav>
         <div className="ml-300 bg">
+
           <Switch>
-            <Route path="/rank" component={RankPage}>
-              <RankPage />
-            </Route>
-            <Route path="/about" component={About}>
-              <About />
-            </Route>
-            <Route path="/" component={Homepage}>
-              <Homepage />
-            </Route>
+            <Route path="/bargraph" render={() => <BarGraph/>} />
+            <Route path="/rank" render={() => <RankPage/>} />
+            <Route path="/about" render={() => <About/>} />
+            <Route path="/" render={() => <Homepage/>} />
+
           </Switch>
+          
         </div>
 
       </Router>
