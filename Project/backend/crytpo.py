@@ -12,10 +12,8 @@ starttime = time.time()
 
 while True:
     reddit = praw.Reddit(
-        # client_id = os.getenv("USER_ID"),
-        # client_secret = os.getenv("CLIENT_SECRERT"),
-        client_id = "EUjAh6lhD_gNuQ",
-        client_secret = "gKxohPVBljW4jQ1KLfqVafpgMT6tPw",
+        client_id = os.getenv("USER_ID"),
+        client_secret = os.getenv("CLIENT_SECRERT"),
         user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36"
     )
     df = []
