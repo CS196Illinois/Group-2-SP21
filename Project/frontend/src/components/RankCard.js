@@ -13,7 +13,11 @@ const RankCard = (props) => {
                 <Card.Text>
                     Hits: {props.hits}
                 </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button
+              variant="primary"
+              onClick={() => window.open(`https://en.wikipedia.org/wiki/${props.name}`)}>
+              Go somewhere
+            </Button>
             </Card.Body>
         </Card>
     )
